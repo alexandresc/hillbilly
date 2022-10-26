@@ -13,6 +13,8 @@ import Header from "./header"
 import Footer from "./footer"
 import Contact from "./contact"
 import Gallery from "./gallery"
+import Services from "./services"
+import Company from "./company"
 // import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -47,7 +49,9 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.com">Gatsby</a> por {` `}
           <a href="https://github.com/alexandresc">Alexandre</a> 
         </footer> */}
+        <Company />
         <Gallery />
+        <Services />
         <Contact />
         <Footer />
       </div>
